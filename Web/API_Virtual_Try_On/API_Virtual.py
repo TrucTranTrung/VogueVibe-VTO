@@ -215,7 +215,7 @@ async def merge_images_api(file1: UploadFile = File(...), file2: UploadFile = Fi
         ]
         main()
 
-        result_path = r"D:\GITHUB\VITON_Project\Virtual_Try_On\Web\API_Virtual_Try_On\results\Results\00891_02783_00.jpg"
+        result_path = r".\results\Results\00891_02783_00.jpg"
         
         if not os.path.exists(result_path):
             # return Try_on_Response(image="hehe", message=f"Failed request")
