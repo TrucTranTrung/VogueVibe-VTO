@@ -57,7 +57,7 @@ path_saved_features = "../saved_features.npy"
 - The best.pt file is the trained YOLO model that detects and categorizes fashion items in images.
 - The labels.npy and saved_features.npy file are the featues extraction file of database using DINOv2.
 - Put the pre-trained of VITON-HD into VITON-HD/checkpoints/
-- You can get the pre-trained file from: [![Pre-traind]](https://github.com/shadow2496/VITON-HD) 
+- You can get the pre-trained file from: [[Pre-traind]](https://github.com/shadow2496/VITON-HD) 
 
 ### Step 4: Start the Application
 Create 3 terminals to run the backend, frontend, and admin services:
