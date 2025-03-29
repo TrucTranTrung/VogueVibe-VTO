@@ -9,7 +9,7 @@ const port = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors());
-mongoose.connect("mongodb+srv://admin:admin@cluster.1kiif.mongodb.net/");
+mongoose.connect("your connection to database");
 
 const firebase = require('./firebase')
 
