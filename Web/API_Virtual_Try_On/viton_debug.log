@@ -1,0 +1,1461 @@
+2025-03-23 00:42:31,180 - DEBUG - Using selector: SelectSelector
+2025-03-23 00:42:38,593 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:42:38,593 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 00:42:38,593 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 00:42:38,593 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:42:38,593 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 00:42:38,593 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 00:42:38,593 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:42:38,593 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:42:38,593 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 00:42:38,604 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:42:38,604 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:42:38,604 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 00:42:38,604 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 00:42:38,605 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:42:38,605 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 00:42:38,606 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 00:42:38,606 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:42:38,606 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:42:38,606 - DEBUG - Calling on_part_data with data[87873:98304]
+2025-03-23 00:42:38,607 - DEBUG - Calling on_part_data with data[0:117127]
+2025-03-23 00:42:38,607 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:42:38,607 - DEBUG - Calling on_end with no data
+2025-03-23 00:42:45,880 - ERROR - Error: cannot access local variable 'pairs_file' where it is not associated with a value
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 210, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 181, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 89, in test
+    test_dataset = VITONDataset(opt)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 36, in __init__
+    logger.debug(f"Full path to pairs file: {pairs_file}")
+                                             ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'pairs_file' where it is not associated with a value
+
+2025-03-23 00:49:36,880 - DEBUG - Using selector: SelectSelector
+2025-03-23 00:50:04,087 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:50:04,089 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 00:50:04,089 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 00:50:04,089 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:50:04,089 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 00:50:04,089 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 00:50:04,089 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:50:04,089 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:50:04,090 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:50:04,090 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:50:04,090 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:50:04,090 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:50:04,090 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:50:04,090 - DEBUG - Calling on_part_data with data[87873:131072]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_part_data with data[0:84359]
+2025-03-23 00:50:04,090 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:50:04,093 - DEBUG - Calling on_end with no data
+2025-03-23 00:50:11,095 - INFO - Dataset list file: D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets\test_pairs.txt
+2025-03-23 00:50:11,098 - ERROR - Error: not enough values to unpack (expected 2, got 0)
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 210, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 181, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 89, in test
+    test_dataset = VITONDataset(opt)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 43, in __init__
+    img_name, c_name = line.strip().split()
+    ^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2025-03-23 00:51:08,997 - DEBUG - Using selector: SelectSelector
+2025-03-23 00:51:09,044 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:51:09,044 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 00:51:09,044 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 00:51:09,044 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:51:09,047 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 00:51:09,047 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 00:51:09,047 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:51:09,047 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:51:09,049 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 00:51:09,049 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:51:09,049 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:51:09,049 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 00:51:09,050 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 00:51:09,050 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:51:09,050 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 00:51:09,050 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 00:51:09,050 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:51:09,051 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:51:09,051 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 00:51:09,052 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 00:51:09,052 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:51:09,052 - DEBUG - Calling on_end with no data
+2025-03-23 00:51:16,932 - INFO - Dataset list file: D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets\test_pairs.txt
+2025-03-23 00:51:16,932 - INFO - file: 08909_00.jpg 02783_00.jpg
+
+2025-03-23 00:51:16,934 - INFO - file: 
+
+2025-03-23 00:51:16,934 - ERROR - Error: not enough values to unpack (expected 2, got 0)
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 210, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 181, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 89, in test
+    test_dataset = VITONDataset(opt)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 44, in __init__
+    img_name, c_name = line.strip().split()
+    ^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+2025-03-23 00:52:58,395 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:52:58,395 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 00:52:58,395 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 00:52:58,395 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:52:58,395 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 00:52:58,395 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 00:52:58,395 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:52:58,395 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:52:58,395 - DEBUG - Calling on_part_data with data[141:16384]
+2025-03-23 00:52:58,395 - DEBUG - Calling on_part_data with data[0:71346]
+2025-03-23 00:52:58,395 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:52:58,400 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:52:58,400 - DEBUG - Calling on_header_field with data[71390:71409]
+2025-03-23 00:52:58,400 - DEBUG - Calling on_header_value with data[71411:71459]
+2025-03-23 00:52:58,400 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:52:58,400 - DEBUG - Calling on_header_field with data[71461:71473]
+2025-03-23 00:52:58,400 - DEBUG - Calling on_header_value with data[71475:71485]
+2025-03-23 00:52:58,400 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:52:58,401 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:52:58,401 - DEBUG - Calling on_part_data with data[71489:199047]
+2025-03-23 00:52:58,401 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:52:58,401 - DEBUG - Calling on_end with no data
+2025-03-23 00:53:04,749 - INFO - Dataset list file: D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets\test_pairs.txt
+2025-03-23 00:53:04,763 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 00:53:15,315 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 141, in __getitem__
+    c[key] = Image.open(osp.join(self.data_path, 'cloth', c_name[key])).convert('RGB')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\cloth\\02783_00.jpg'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 210, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 181, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 93, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 141, in __getitem__
+    c[key] = Image.open(osp.join(self.data_path, 'cloth', c_name[key])).convert('RGB')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\cloth\\02783_00.jpg'
+
+
+2025-03-23 00:56:57,160 - DEBUG - Using selector: SelectSelector
+2025-03-23 00:57:15,770 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:57:15,770 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 00:57:15,770 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 00:57:15,770 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:57:15,770 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 00:57:15,770 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 00:57:15,770 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:57:15,770 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:57:15,770 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 00:57:15,770 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:57:15,770 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:57:15,775 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 00:57:15,775 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 00:57:15,775 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:57:15,776 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 00:57:15,776 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 00:57:15,776 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:57:15,776 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:57:15,776 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 00:57:15,776 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 00:57:15,778 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:57:15,778 - DEBUG - Calling on_end with no data
+2025-03-23 00:58:16,951 - DEBUG - Using selector: SelectSelector
+2025-03-23 00:58:16,992 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:58:16,992 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 00:58:16,992 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 00:58:16,992 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:58:16,992 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 00:58:16,992 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 00:58:16,992 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:58:16,992 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:58:16,992 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 00:58:16,992 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:58:16,996 - DEBUG - Calling on_part_begin with no data
+2025-03-23 00:58:16,996 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 00:58:16,996 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 00:58:16,996 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:58:16,996 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 00:58:16,996 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 00:58:16,997 - DEBUG - Calling on_header_end with no data
+2025-03-23 00:58:16,997 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 00:58:16,997 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 00:58:16,998 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 00:58:16,998 - DEBUG - Calling on_part_end with no data
+2025-03-23 00:58:16,998 - DEBUG - Calling on_end with no data
+2025-03-23 01:00:05,894 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:00:08,812 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:00:08,812 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:00:08,812 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:00:08,812 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:00:08,812 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:00:08,812 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:00:08,812 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:00:08,812 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:00:08,812 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:00:08,812 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:00:08,815 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:00:08,815 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:00:08,815 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:00:08,815 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:00:08,815 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:00:08,815 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:00:08,815 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:00:08,815 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:00:08,817 - DEBUG - Calling on_part_data with data[87873:180224]
+2025-03-23 01:00:08,818 - DEBUG - Calling on_part_data with data[0:35207]
+2025-03-23 01:00:08,818 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:00:08,818 - DEBUG - Calling on_end with no data
+2025-03-23 01:00:13,983 - ERROR - Error: './checkpoints/seg_final.pth' is not a valid checkpoint path
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 213, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 173, in main
+    load_checkpoint(seg, os.path.join(opt.checkpoint_dir, opt.seg_checkpoint))
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\utils.py", line 141, in load_checkpoint
+    raise ValueError("'{}' is not a valid checkpoint path".format(checkpoint_path))
+ValueError: './checkpoints/seg_final.pth' is not a valid checkpoint path
+
+2025-03-23 01:01:14,503 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:01:14,551 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:01:14,551 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:01:14,551 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:01:14,557 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:01:14,557 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:01:14,557 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:01:14,557 - DEBUG - Calling on_end with no data
+2025-03-23 01:01:21,723 - ERROR - Error: './checkpoints/seg_final.pth' is not a valid checkpoint path
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 213, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 173, in main
+    load_checkpoint(seg, os.path.join(opt.checkpoint_dir, opt.seg_checkpoint))
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\utils.py", line 141, in load_checkpoint
+    raise ValueError("'{}' is not a valid checkpoint path".format(checkpoint_path))
+ValueError: './checkpoints/seg_final.pth' is not a valid checkpoint path
+
+2025-03-23 01:02:45,541 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:03:09,032 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:03:09,032 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:03:09,032 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:03:09,035 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:03:09,035 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:03:09,035 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:03:09,035 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:03:09,035 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:03:09,035 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:03:09,035 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:03:09,037 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:03:09,037 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:03:09,037 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:03:09,038 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:03:09,038 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:03:09,038 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:03:09,038 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:03:09,038 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:03:09,039 - DEBUG - Calling on_part_data with data[87873:163840]
+2025-03-23 01:03:09,040 - DEBUG - Calling on_part_data with data[0:51591]
+2025-03-23 01:03:09,040 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:03:09,041 - DEBUG - Calling on_end with no data
+2025-03-23 01:03:15,430 - ERROR - Error: 'D:\GITHUB\VITON_Project\Virtual_Try_On\Webecommend_clothes_shop\API_Virtual_Try_On\VITON-HD\checkpoints\seg_final.pth' is not a valid checkpoint path
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 213, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 173, in main
+    load_checkpoint(seg, os.path.join(opt.checkpoint_dir, opt.seg_checkpoint))
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\utils.py", line 141, in load_checkpoint
+    raise ValueError("'{}' is not a valid checkpoint path".format(checkpoint_path))
+ValueError: 'D:\GITHUB\VITON_Project\Virtual_Try_On\Webecommend_clothes_shop\API_Virtual_Try_On\VITON-HD\checkpoints\seg_final.pth' is not a valid checkpoint path
+
+2025-03-23 01:04:15,127 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:04:15,176 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:04:15,176 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:04:15,176 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:04:15,176 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:04:15,176 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:04:15,176 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:04:15,176 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:04:15,176 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:04:15,181 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:04:15,181 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:04:15,181 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:04:15,182 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:04:15,182 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:04:15,182 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:04:15,183 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:04:15,183 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:04:15,183 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:04:15,183 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:04:15,183 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:04:15,184 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:04:15,184 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:04:15,185 - DEBUG - Calling on_end with no data
+2025-03-23 01:04:23,697 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:04:33,246 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 140, in __getitem__
+    c[key] = Image.open(osp.join(self.data_path, 'cloth', c_name[key])).convert('RGB')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\cloth\\02783_00.jpg'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 213, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 180, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 93, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 140, in __getitem__
+    c[key] = Image.open(osp.join(self.data_path, 'cloth', c_name[key])).convert('RGB')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\cloth\\02783_00.jpg'
+
+
+2025-03-23 01:05:34,828 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:05:34,831 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:05:34,831 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:05:34,831 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:34,831 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:05:34,831 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:05:34,831 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:34,831 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:05:34,833 - DEBUG - Calling on_part_data with data[141:49152]
+2025-03-23 01:05:34,833 - DEBUG - Calling on_part_data with data[0:38578]
+2025-03-23 01:05:34,833 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:05:34,833 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:05:34,833 - DEBUG - Calling on_header_field with data[38622:38641]
+2025-03-23 01:05:34,833 - DEBUG - Calling on_header_value with data[38643:38691]
+2025-03-23 01:05:34,833 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:34,833 - DEBUG - Calling on_header_field with data[38693:38705]
+2025-03-23 01:05:34,834 - DEBUG - Calling on_header_value with data[38707:38717]
+2025-03-23 01:05:34,834 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:34,834 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:05:34,835 - DEBUG - Calling on_part_data with data[38721:166279]
+2025-03-23 01:05:34,835 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:05:34,836 - DEBUG - Calling on_end with no data
+2025-03-23 01:05:34,855 - ERROR - Error: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\cloth\\02783_00.jpg'
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 75, in merge_images_api
+    product_image.save(os.path.join("VITON-HD", "datasets", "cloth", "02783_00.jpg"))
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 2600, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\cloth\\02783_00.jpg'
+
+2025-03-23 01:05:37,551 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:05:37,551 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:05:37,551 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:05:37,552 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:37,552 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:05:37,552 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:05:37,560 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:37,560 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:05:37,562 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:05:37,562 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:05:37,562 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:05:37,562 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:05:37,562 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:05:37,562 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:37,564 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:05:37,565 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:05:37,565 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:37,565 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:05:37,565 - DEBUG - Calling on_part_data with data[87873:147456]
+2025-03-23 01:05:37,566 - DEBUG - Calling on_part_data with data[0:67975]
+2025-03-23 01:05:37,566 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:05:37,566 - DEBUG - Calling on_end with no data
+2025-03-23 01:05:37,598 - ERROR - Error: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\cloth\\02783_00.jpg'
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 75, in merge_images_api
+    product_image.save(os.path.join("VITON-HD", "datasets", "cloth", "02783_00.jpg"))
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 2600, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\cloth\\02783_00.jpg'
+
+2025-03-23 01:05:51,078 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:05:51,127 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:05:51,127 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:05:51,131 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:05:51,131 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:51,131 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:05:51,131 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:05:51,131 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:51,131 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:05:51,133 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:05:51,133 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:05:51,134 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:05:51,134 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:05:51,134 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:05:51,134 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:51,134 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:05:51,134 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:05:51,134 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:05:51,134 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:05:51,134 - DEBUG - Calling on_part_data with data[87873:215431]
+2025-03-23 01:05:51,134 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:05:51,134 - DEBUG - Calling on_end with no data
+2025-03-23 01:05:51,206 - ERROR - Error: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\cloth\\02783_00.jpg'
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 75, in merge_images_api
+    product_image.save(os.path.join("VITON-HD", "datasets", "cloth", "02783_00.jpg"))
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 2600, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\cloth\\02783_00.jpg'
+
+2025-03-23 01:09:14,594 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:09:47,622 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:09:47,623 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:09:47,623 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:09:47,623 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:09:47,623 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:09:47,623 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:09:47,624 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:09:47,624 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:09:47,624 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:09:47,624 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:09:47,624 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:09:47,624 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:09:47,624 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:09:47,626 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:09:47,626 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:09:47,626 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:09:47,626 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:09:47,627 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:09:47,627 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:09:47,627 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:09:47,627 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:09:47,628 - DEBUG - Calling on_end with no data
+2025-03-23 01:09:55,769 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:10:04,697 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 142, in __getitem__
+    cm[key] = Image.open(osp.join(self.data_path, 'cloth-mask', c_name[key]))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\cloth-mask\\02783_00.jpg'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 213, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 180, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 93, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 142, in __getitem__
+    cm[key] = Image.open(osp.join(self.data_path, 'cloth-mask', c_name[key]))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\cloth-mask\\02783_00.jpg'
+
+
+2025-03-23 01:11:18,222 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:11:18,281 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:11:18,281 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:11:18,281 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:11:18,281 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:11:18,281 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:11:18,284 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:11:18,284 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:11:18,285 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:11:18,285 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:11:18,285 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:11:18,286 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:11:18,286 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:11:18,286 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:11:18,286 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:11:18,286 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:11:18,286 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:11:18,287 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:11:18,288 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:11:18,288 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:11:18,289 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:11:18,289 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:11:18,290 - DEBUG - Calling on_end with no data
+2025-03-23 01:11:25,979 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:11:34,470 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 153, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 213, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 180, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 93, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 153, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:20:04,443 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:20:11,638 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:20:11,639 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:20:11,639 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:20:11,639 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:20:11,639 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:20:11,639 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:20:11,639 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:20:11,639 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:20:11,639 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:20:11,641 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:20:11,641 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:20:11,641 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:20:11,641 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:20:11,641 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:20:11,641 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:20:11,641 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:20:11,641 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:20:11,643 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:20:11,643 - DEBUG - Calling on_part_data with data[87873:114688]
+2025-03-23 01:20:11,643 - DEBUG - Calling on_part_data with data[0:100743]
+2025-03-23 01:20:11,643 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:20:11,644 - DEBUG - Calling on_end with no data
+2025-03-23 01:20:18,935 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:20:29,301 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 153, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 212, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 180, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 93, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 153, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:21:29,077 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:24:56,665 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:31:11,813 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:31:24,461 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:32:00,000 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:32:00,001 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:32:00,002 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:32:00,002 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:32:00,002 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:32:00,002 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:32:00,002 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:32:00,002 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:32:00,003 - DEBUG - Calling on_part_data with data[141:16384]
+2025-03-23 01:32:00,003 - DEBUG - Calling on_part_data with data[0:71346]
+2025-03-23 01:32:00,003 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:32:00,003 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:32:00,005 - DEBUG - Calling on_header_field with data[71390:71409]
+2025-03-23 01:32:00,005 - DEBUG - Calling on_header_value with data[71411:71459]
+2025-03-23 01:32:00,005 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:32:00,005 - DEBUG - Calling on_header_field with data[71461:71473]
+2025-03-23 01:32:00,005 - DEBUG - Calling on_header_value with data[71475:71485]
+2025-03-23 01:32:00,005 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:32:00,006 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:32:00,006 - DEBUG - Calling on_part_data with data[71489:199047]
+2025-03-23 01:32:00,006 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:32:00,006 - DEBUG - Calling on_end with no data
+2025-03-23 01:32:05,741 - ERROR - Error: '/checkpoints/seg_final.pth' is not a valid checkpoint path
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 211, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 145, in main
+    load_checkpoint(seg, os.path.join(opt.checkpoint_dir, opt.seg_checkpoint))
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\utils.py", line 141, in load_checkpoint
+    raise ValueError("'{}' is not a valid checkpoint path".format(checkpoint_path))
+ValueError: '/checkpoints/seg_final.pth' is not a valid checkpoint path
+
+2025-03-23 01:34:21,157 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:34:21,212 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:34:21,212 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:34:21,213 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:34:21,213 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:34:21,213 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:34:21,213 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:34:21,214 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:34:21,214 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:34:21,215 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:34:21,215 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:34:21,215 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:34:21,216 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:34:21,216 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:34:21,216 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:34:21,217 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:34:21,217 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:34:21,217 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:34:21,218 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:34:21,218 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:34:21,219 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:34:21,219 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:34:21,220 - DEBUG - Calling on_end with no data
+2025-03-23 01:34:29,165 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:34:38,730 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 153, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 153, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:35:50,295 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:36:13,389 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:36:13,389 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:36:13,389 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:36:13,389 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:36:13,389 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:36:13,389 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:36:13,389 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:36:13,389 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:36:13,389 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:36:13,392 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:36:13,392 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:36:13,392 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:36:13,392 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:36:13,392 - DEBUG - Calling on_part_data with data[87873:131072]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_part_data with data[0:84359]
+2025-03-23 01:36:13,392 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:36:13,394 - DEBUG - Calling on_end with no data
+2025-03-23 01:36:20,094 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:36:28,321 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:37:39,926 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:37:39,977 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:37:39,978 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:37:39,978 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:37:39,978 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:37:39,979 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:37:39,979 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:37:39,979 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:37:39,979 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:37:39,980 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:37:39,980 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:37:39,980 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:37:39,980 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:37:39,980 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:37:39,981 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:37:39,981 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:37:39,981 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:37:39,982 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:37:39,982 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:37:39,982 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:37:39,983 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:37:39,983 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:37:39,983 - DEBUG - Calling on_end with no data
+2025-03-23 01:37:48,119 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:37:57,719 - INFO - pose_name: ./VITON-HD/datasets\test\openpose-img\08909_00_rendered.png
+2025-03-23 01:37:57,731 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:37:57,779 - INFO - pose_name: ./VITON-HD/datasets\test\openpose-img\08909_00_rendered.png
+2025-03-23 01:40:44,097 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:40:50,922 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:40:50,924 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:40:50,924 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:40:50,924 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:40:50,924 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:40:50,924 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:40:50,933 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:40:50,933 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:40:50,934 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:40:50,934 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:40:50,935 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:40:50,935 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:40:50,935 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:40:50,935 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:40:50,935 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:40:50,936 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:40:50,936 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:40:50,936 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:40:50,936 - DEBUG - Calling on_part_data with data[87873:114688]
+2025-03-23 01:40:50,936 - DEBUG - Calling on_part_data with data[0:100743]
+2025-03-23 01:40:50,936 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:40:50,938 - DEBUG - Calling on_end with no data
+2025-03-23 01:40:58,208 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:41:07,862 - INFO - pose_name: .\VITON-HD\datasets\test\openpose-img\08909_00_rendered.png
+2025-03-23 01:41:07,873 - INFO - pose_name: .\VITON-HD\datasets\test\openpose-img\08909_00_rendered.png
+2025-03-23 01:41:07,889 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(self.data_path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:43:11,052 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:44:21,679 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:44:22,244 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:44:22,244 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:44:22,244 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:44:22,244 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:22,244 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:44:22,248 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:44:22,248 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:22,248 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:44:22,248 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:44:22,248 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:44:22,248 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:44:22,248 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:44:22,249 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:44:22,250 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:22,250 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:44:22,250 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:44:22,250 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:22,250 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:44:22,250 - DEBUG - Calling on_part_data with data[87873:98304]
+2025-03-23 01:44:22,250 - DEBUG - Calling on_part_data with data[0:117127]
+2025-03-23 01:44:22,250 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:44:22,252 - DEBUG - Calling on_end with no data
+2025-03-23 01:44:27,748 - ERROR - Error: './checkpoints\seg_final.pth' is not a valid checkpoint path
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 211, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 145, in main
+    load_checkpoint(seg, os.path.join(opt.checkpoint_dir, opt.seg_checkpoint))
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\utils.py", line 141, in load_checkpoint
+    raise ValueError("'{}' is not a valid checkpoint path".format(checkpoint_path))
+ValueError: './checkpoints\seg_final.pth' is not a valid checkpoint path
+
+2025-03-23 01:44:55,022 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:44:58,208 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:44:58,208 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:44:58,208 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:44:58,208 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:58,208 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:44:58,208 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:44:58,208 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:58,208 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:44:58,208 - DEBUG - Calling on_part_data with data[141:81920]
+2025-03-23 01:44:58,208 - DEBUG - Calling on_part_data with data[0:5810]
+2025-03-23 01:44:58,212 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:44:58,212 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:44:58,212 - DEBUG - Calling on_header_field with data[5854:5873]
+2025-03-23 01:44:58,212 - DEBUG - Calling on_header_value with data[5875:5923]
+2025-03-23 01:44:58,212 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:58,212 - DEBUG - Calling on_header_field with data[5925:5937]
+2025-03-23 01:44:58,212 - DEBUG - Calling on_header_value with data[5939:5949]
+2025-03-23 01:44:58,214 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:44:58,215 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:44:58,215 - DEBUG - Calling on_part_data with data[5953:133511]
+2025-03-23 01:44:58,215 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:44:58,216 - DEBUG - Calling on_end with no data
+2025-03-23 01:45:05,140 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:45:14,923 - ERROR - Error: Caught OSError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\test\\openpose-img\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+OSError: Caught OSError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\test\\openpose-img\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:45:58,609 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:46:03,542 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:46:03,542 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:46:03,542 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:46:03,542 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:03,542 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:46:03,542 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:46:03,542 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:03,542 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:46:03,542 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:46:03,542 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:46:03,545 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:46:03,545 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:46:03,545 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:46:03,546 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:03,546 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:46:03,546 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:46:03,546 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:03,547 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:46:03,547 - DEBUG - Calling on_part_data with data[87873:98304]
+2025-03-23 01:46:03,547 - DEBUG - Calling on_part_data with data[0:117127]
+2025-03-23 01:46:03,548 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:46:03,548 - DEBUG - Calling on_end with no data
+2025-03-23 01:46:10,712 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:46:20,229 - ERROR - Error: Caught OSError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+OSError: Caught OSError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:46:23,735 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:46:23,736 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:46:23,736 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:46:23,737 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:23,737 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:46:23,737 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:46:23,737 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:23,738 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:46:23,738 - DEBUG - Calling on_part_data with data[141:87730]
+2025-03-23 01:46:23,739 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:46:23,739 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:46:23,739 - DEBUG - Calling on_header_field with data[87774:87793]
+2025-03-23 01:46:23,740 - DEBUG - Calling on_header_value with data[87795:87843]
+2025-03-23 01:46:23,740 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:23,740 - DEBUG - Calling on_header_field with data[87845:87857]
+2025-03-23 01:46:23,740 - DEBUG - Calling on_header_value with data[87859:87869]
+2025-03-23 01:46:23,742 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:46:23,742 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:46:23,742 - DEBUG - Calling on_part_data with data[87873:196608]
+2025-03-23 01:46:23,743 - DEBUG - Calling on_part_data with data[0:18823]
+2025-03-23 01:46:23,744 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:46:23,744 - DEBUG - Calling on_end with no data
+2025-03-23 01:46:35,506 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:46:44,202 - ERROR - Error: Caught OSError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+OSError: Caught OSError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:47:35,629 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:48:15,191 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:48:15,191 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:48:15,191 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:48:15,192 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:48:15,192 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:48:15,192 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:48:15,192 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:48:15,192 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:48:15,193 - DEBUG - Calling on_part_data with data[141:81920]
+2025-03-23 01:48:15,193 - DEBUG - Calling on_part_data with data[0:5810]
+2025-03-23 01:48:15,193 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:48:15,193 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:48:15,193 - DEBUG - Calling on_header_field with data[5854:5873]
+2025-03-23 01:48:15,193 - DEBUG - Calling on_header_value with data[5875:5923]
+2025-03-23 01:48:15,193 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:48:15,193 - DEBUG - Calling on_header_field with data[5925:5937]
+2025-03-23 01:48:15,195 - DEBUG - Calling on_header_value with data[5939:5949]
+2025-03-23 01:48:15,196 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:48:15,196 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:48:15,196 - DEBUG - Calling on_part_data with data[5953:133511]
+2025-03-23 01:48:15,196 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:48:15,196 - DEBUG - Calling on_end with no data
+2025-03-23 01:48:22,625 - INFO - file: 08909_00.jpg 02783_00.jpg
+2025-03-23 01:48:30,962 - ERROR - Error: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+Traceback:
+Traceback (most recent call last):
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\API_Virtual.py", line 215, in merge_images_api
+    main()
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 152, in main
+    test(opt, seg, gmm, alias)
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\viton_test.py", line 65, in test
+    for i, inputs in enumerate(test_loader.data_loader):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1465, in _next_data
+    return self._process_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\dataloader.py", line 1491, in _process_data
+    data.reraise()
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\_utils.py", line 715, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\worker.py", line 351, in _worker_loop
+    data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "D:\GITHUB\VITON_Project\Virtual_Try_On\Web\recommend_clothes_shop\API_Virtual_Try_On\VITON-HD\datasets.py", line 154, in __getitem__
+    pose_rgb = Image.open(osp.join(path, 'openpose-img', pose_name))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\envs\vitural-try-on\Lib\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\GITHUB\\VITON_Project\\Virtual_Try_On\\Web\\recommend_clothes_shop\\API_Virtual_Try_On\\VITON-HD\\datasets\\test\\openpose-img\\08909_00_rendered.png'
+
+
+2025-03-23 01:50:54,196 - DEBUG - Using selector: SelectSelector
+2025-03-23 01:50:59,490 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:50:59,491 - DEBUG - Calling on_header_field with data[42:61]
+2025-03-23 01:50:59,491 - DEBUG - Calling on_header_value with data[63:111]
+2025-03-23 01:50:59,492 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:50:59,492 - DEBUG - Calling on_header_field with data[113:125]
+2025-03-23 01:50:59,492 - DEBUG - Calling on_header_value with data[127:137]
+2025-03-23 01:50:59,493 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:50:59,493 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:50:59,493 - DEBUG - Calling on_part_data with data[141:81920]
+2025-03-23 01:50:59,494 - DEBUG - Calling on_part_data with data[0:5810]
+2025-03-23 01:50:59,495 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:50:59,495 - DEBUG - Calling on_part_begin with no data
+2025-03-23 01:50:59,495 - DEBUG - Calling on_header_field with data[5854:5873]
+2025-03-23 01:50:59,496 - DEBUG - Calling on_header_value with data[5875:5923]
+2025-03-23 01:50:59,496 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:50:59,507 - DEBUG - Calling on_header_field with data[5925:5937]
+2025-03-23 01:50:59,507 - DEBUG - Calling on_header_value with data[5939:5949]
+2025-03-23 01:50:59,507 - DEBUG - Calling on_header_end with no data
+2025-03-23 01:50:59,508 - DEBUG - Calling on_headers_finished with no data
+2025-03-23 01:50:59,508 - DEBUG - Calling on_part_data with data[5953:133511]
+2025-03-23 01:50:59,509 - DEBUG - Calling on_part_end with no data
+2025-03-23 01:50:59,509 - DEBUG - Calling on_end with no data
+2025-03-23 01:51:08,254 - INFO - file: 00891_00.jpg 02783_00.jpg
+2025-03-23 01:51:17,406 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-23 01:51:17,407 - DEBUG - STREAM b'IDAT' 41 7928
+2025-03-23 01:51:17,408 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-23 01:51:17,408 - DEBUG - STREAM b'IDAT' 41 7928
+2025-03-23 01:51:17,447 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-23 01:51:17,447 - DEBUG - STREAM b'IHDR' 16 13
+2025-03-23 01:51:17,447 - DEBUG - STREAM b'PLTE' 41 768
+2025-03-23 01:51:17,448 - DEBUG - STREAM b'PLTE' 41 768
+2025-03-23 01:51:17,448 - DEBUG - STREAM b'IDAT' 821 7285
+2025-03-23 01:51:17,448 - DEBUG - STREAM b'IDAT' 821 7285
