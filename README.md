@@ -89,4 +89,5 @@ VougeVibe will continue to improve with the following enhancements:
 * Enhanced Fashion Detection Models: Upgrading the YOLO model for more accurate detection and a wider variety of fashion products.
 * Increased Product Diversity: Expanding the product database to include more fashion styles, providing more diverse recommendations.
 * Improved Image Retrieval: Refining the image retrieval system for more precise recommendations, enhancing feature extraction and cosine similarity for better product matching.
+* Enhance segmantation model for VITON-HD
 
